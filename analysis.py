@@ -62,14 +62,14 @@ def format_stats(stats):
         return "Нет данных для анализа."
     
     formatted_stats = (
-        f"Аналитика по тикеру {stats['ticker']} за указанный период:\n\n"
-        f"Средняя цена закрытия:  {stats['mean_close']:.2f}\n"
-        f"Минимальная цена закрытия:  {stats['min_close']:.2f}\n"
-        f"Максимальная цена закрытия:  {stats['max_close']:.2f}\n"
-        f"Цена на начало периода:  {stats['start_price']:.2f}\n"
-        f"Цена на конец периода:  {stats['end_price']:.2f}\n"
-        f"Изменение цены:  {stats['change_abs']:.2f} ({stats['change_pct']:.2f}%)\n"
-        f"Волатильность:  {stats['volatility']:.4f}\n"
+        f"Аналитика по тикеру <b>{stats['ticker']}</b> за указанный период:\n\n"
+        f"<b>Средняя цена закрытия:</b>  {stats['mean_close']:.2f}\n"
+        f"<b>Минимальная цена закрытия:</b>  {stats['min_close']:.2f}\n"
+        f"<b>Максимальная цена закрытия:</b>  {stats['max_close']:.2f}\n"
+        f"<b>Цена на начало периода:</b>  {stats['start_price']:.2f}\n"
+        f"<b>Цена на конец периода:</b>  {stats['end_price']:.2f}\n"
+        f"<b>Изменение цены:</b>  {stats['change_abs']:.2f} ({stats['change_pct']:.2f}%)\n"
+        f"<b>Волатильность:</b>  {stats['volatility']:.4f}\n"
     )
     
     if stats['change_abs'] > 0:
