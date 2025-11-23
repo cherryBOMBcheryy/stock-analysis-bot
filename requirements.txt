@@ -1,0 +1,18 @@
+# Telegram bot
+pyTelegramBotAPI==4.12.0
+
+# Data
+pandas==2.2.2
+matplotlib==3.10.7
+dateparser==1.1.8
+
+# DB
+sqlalchemy==2.0.22
+psycopg2-binary==2.9.7
+
+# API / Utils
+requests==2.31.0
+python-dotenv==1.0.0
+
+# LLM
+gigachat==0.1.43

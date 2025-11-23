@@ -1,0 +1,18 @@
+config/
+__pycache__/
+*.env
+.env
+
+# Virtual Environment
+venv/
+ENV/
+.env
+__pycache__/
+*.pyc
+
+# Configs with secrets
+config/
+
+# Dataset (if large)
+World-Stock-Prices-Dataset.csv
+stocks.db
